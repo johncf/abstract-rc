@@ -1,4 +1,4 @@
-# Generic RC (in Rust)
+# Generic RC
 
 This repo explores a way to abstract over `Rc<T>` and `Arc<T>` using the
 (limited?) capabilities of Rust as it exists at the time of writing this.
