@@ -14,6 +14,6 @@ counting used internally without duplicating code (or macro gymnastics).
 
 ### Wait... WHY?
 
-Because `Rc` is waay faster than `Arc`. So if the user is running a single-
-threaded program, she may not want all the features and over-heads that `Arc`
-comes with.
+Because `Rc` is significantly faster than `Arc`. So if the user is running a
+single-threaded program, she may not want all the features and over-heads that
+`Arc` comes with.
